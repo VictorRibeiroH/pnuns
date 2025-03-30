@@ -25,7 +25,7 @@ export function HoodieCard({ name, image1, image2 }: HoodieCardProps) {
           alt={name}
           fill
           className="object-cover transition-opacity duration-300"
-          sizes="(max-width: 767px) 100vw, (max-width: 1200px) 50vw, 25vw"
+          sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 25vw"
         />
       </div>
       <div className="p-4">
